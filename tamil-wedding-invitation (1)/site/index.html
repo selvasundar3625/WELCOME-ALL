@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Naveenkumar &amp; Nithyasri – Wedding Reception</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,600;1,500&family=Noto+Serif+Tamil:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+  <style>
+    @media (max-width: 480px) {
+      .mobile-compact {
+        font-size: 0.85rem;
+        line-height: 1.7;
+      }
+      .mobile-compact .two {
+        display: block;
+      }
+      .mobile-compact .two > div {
+        margin-bottom: 1rem;
+      }
+    }
+  </style>
+</head>
+<body class="locked">
+<canvas id="fx"></canvas>
+
+<!-- ENVELOPE / SEAL -->
+<section id="cover">
+ 
+  <div class="om gold">♥</div>
+  <div class="env" id="env">
+    <div class="env-back"></div>
+    <div class="letter"><span class="script">Naveenkumar &amp; Nithyasri</span><small>Wedding Reception</small></div>
+    <div class="env-front"></div>
+    <div class="flap"></div>
+    <button class="seal" id="seal" aria-label="Open invitation"><span>N<i>♥</i>N</span></button>
+  </div>
+  <p class="tap">Tap the Seal to Open</p>
+</section>
+
+<i class="garland l"></i><i class="garland r"></i>
+<i class="leaf ll"></i><i class="leaf lr"></i>
+
+<main id="main">
+  <!-- 1 BLESSINGS -->
+  <section class="sec hero">
+    <div class="om gold" style="font-size: 0.7em; line-height: 1;">ᬒᬁ</div>
+   
+    <h1 class="gold rv">RECEPTION INVITATION</h1>
+    <div class="orn rv"></div>
+    <p class="it rv">We request the pleasure of your presence and blessing with family and friends on the occasion of the Wedding Reception of</p>
+    <div class="names rv">
+      <span class="script gold">Naveenkumar</span><span class="amp">&amp;</span><span class="script gold">Nithyasri</span>
+    </div>
+    <p class="scroll">Scroll to explore<br>⌄</p>
+  </section>
+
+  <!-- 2 COUPLE -->
+  <section class="sec">
+    <div class="orn rv"></div>
+    <div class="person rv">
+      <h2>S.NAVEENKUMAR <small>B.E., M.B.A., C.TECH.</small></h2>
+      <p>HR Manager &amp; Operations Analyst,<br>VAYU - Texonic Groups of Companies, Chennai - 14.</p>
+      <p><b>S/o. K.Sivasankar</b> <small>B.Tech.,</small> - <b>Mrs. Mahalakshmi @ Kalpana</b></p>
+    </div>
+    <div class="hearts rv">♥ ♥</div>
+    <div class="person rv">
+      <h2>S.NITHYASRI <small>B.E.</small></h2>
+      <p>Jay Matriculation Hr. Sec. School, Salem - 03.</p>
+      <p><b>D/o. S.Senthil @ Sankar - Mrs. Bhuvaneshwari</b></p>
+    </div>
+    <div class="orn rv"></div>
+  </section>
+
+  <!-- 3 DATE & VENUE -->
+  <section class="sec">
+    <h2 class="gold rv">Save the Date</h2>
+    <p class="when rv"><i>On</i> <b>Sunday 22<sup>nd</sup> November 2026</b></p>
+    <p class="when rv"><i>between</i> <b>11.30 AM</b> <i>to</i> <b>1.00 PM</b></p>
+    <div class="orn rv"></div>
+    <p class="rv"><i>at</i></p>
+    <h3 class="rv">PONNUSAMY GOUNDER THIRUMANA MANDAPAM A/C,</h3>
+    <p class="rv">Opp. New Bus Stand Salem.</p>
+    <div id="count" class="rv"></div>
+    <div class="qr rv"><img src="assets/qr.png" alt="QR code – scan for location"><small>Scan for Location</small></div>
+    <div class="actions rv">
+      <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Ponnusamy+Gounder+Thirumana+Mandapam+Salem">📍 Get Directions</a>
+      <a class="btn" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Naveenkumar+%26+Nithyasri+Wedding+Reception&dates=20261122T113000/20261122T130000&ctz=Asia/Kolkata&location=Ponnusamy+Gounder+Thirumana+Mandapam+A/C,+Opp.+New+Bus+Stand,+Salem&details=Wedding+Reception+of+S.Naveenkumar+and+S.Nithyasri">📅 Add to Calendar</a>
+    </div>
+  </section>
+
+  <!-- 4 TAMIL INVITATION -->
+  <section class="sec ta tm">
+     <p class="ta god rv">ஸ்ரீ இராமலிங்க சௌடேஸ்வரி அம்மன் துணை <br>&</p>
+    <p class="ta god rv">ஸ்ரீ மதுரைவீரன் சுவாமி துணை</p>
+    <h2 class="gold rv">திருமண அழைப்பிதழ்</h2>
+    <p class="rv"><b>அன்புடையீர், வணக்கம்</b></p>
+    <p class="rv">ஸ்ரீ இராமலிங்கசௌடேஸ்வரி அம்மன் திருவருளால் நிகழும் மங்களகரமான தமிழ் பராபவ வருடம் கார்த்திகை மாதம் 6-ஆம் நாள் (22.11.2026) ஞாயிற்றுக்கிழமை சுக்லபக்ஷம் திரயோதசி திதி, அசுவினி நட்சத்திரம் சித்தயோகம் கூடிய சுபயோக சுபதினத்தில் காலை 8.30 மணிக்குமேல் 9.30 மணிக்குள் தனுசு லக்னத்தில்</p>
+    <div class="orn rv"></div>
+    <p class="rv">நெய்வேலி, விஸ்வாமித்ர மகரிஷி கோத்திரம்,<br>தெய்வத்திருவாளர்கள்.K.S.கந்தசாமி – சரோஜினி அவர்களின் மகன்வழிப் பேரனும், திரு.P.மாசிலாமணி – M.உஷாராணி அவர்களின் மகள்வழிப் பேரனும்,<br>திரு.K.சிவசங்கர் – S.மகாலட்சுமி (எ) கல்பனா அவர்களின் குமாரனுமான திருநிறைச்செல்வன்</p>
+    <h3 class="rv">S.நவீன்குமார் <small>B.E., M.B.A., C.Tech.</small></h3>
+    <p class="rv en">HR Manager &amp; Operations Analyst<br>VAYU - Texonic Group of Companies, Chennai - 14.</p>
+    <p class="rv">என்கிற மணமகனுக்கு</p>
+    <div class="orn rv"></div>
+    <p class="rv">சேலம், புதுத்தெரு, மிருகண்ட மகரிஷி,<br>ரொண்டல, தெய்வத்திருவாளர்கள்.R.சதாசிவம் – கமலா அவர்களின் மகன்வழிப் பேத்தியும், திரு.ராகா R.P.பழனிசாமி – திருமதி.வசந்தி அவர்களின் மகள்வழிப் பேத்தியும்,<br>ரொண்டல, திரு.S.செந்தில் (எ) சங்கர் – திருமதி.புவனேஸ்வரி அவர்களின் குமாரத்தியுமான திருநிறைச்செல்வி</p>
+    <h3 class="rv">S.நித்யஸ்ரீ <small>B.E.</small></h3>
+    <p class="rv en">Jay Matriculation Hr. Sec. School, Salem - 03.</p>
+    <p class="rv">என்கிற மணமகளை</p>
+    <div class="orn rv"></div>
+    <p class="rv">இல்வாழ்க்கைத் துணைவியாகப் பெரியோர்களால் நிச்சயிக்கப்பட்டு மேற்படி இத்திருமணம் <b>சேலம், கோட்டை பெருமாள் கோவில்</b> <b>அருள்மிகு ஸ்ரீ தேவி, பூதேவி சமேத ஸ்ரீ அழகிரிநாத சுவாமியின் சன்னிதானத்தில்</b> நடைபெற்று, அதனைத் தொடர்ந்து மேற்படி <b>திருமண வரவேற்பு விழா காலை 11.30 மணிக்குமேல் பிற்பகல் 1.00 மணிக்குள் சேலம் புதிய பேருந்து நிலையம், லக்ஷ்மி பிரகாஷ் ஹோட்டல் அருகில் உள்ள பொன்னுசாமி கவுண்டர் திருமண மண்டபத்தில்</b> நடைபெற இருப்பதால் தாங்கள் தங்கள் சுற்றமும் நட்பும் சூழ வருகை தந்து மணமக்களை ஆசீர்வதிக்க வேண்டுமாய் அன்புடன் அழைக்கின்றோம்.</p>
+    <div class="two rv">
+      <div><b>யானும் அவ்வண்ணமே கோரும் :</b><br>ரொண்டல, திரு.S.செந்தில் (எ) சங்கர்<br>திருமதி.புவனேஸ்வரி<br>புதுத்தெரு, பொன்னம்மாப்பேட்டை,<br>சேலம் – 636003.<br><small>இருவீட்டார் அழைப்பு</small></div>
+      <div><b>தங்கள் அன்புள்ள :</b><br>திரு.K.சிவசங்கர் <small>B.Tech.,</small><br>திருமதி.S.மகாலட்சுமி (எ) கல்பனா<br>3/57, அனுகிரஹா வில்லா,<br>NDS நகர் மெயின் ரோடு,<br>ரெட்டியூர், சேலம் – 636004.</div>
+    </div>
+  </section>
+
+  <!-- 5 SCHEDULE -->
+  <section class="sec ta tm">
+    <p class="tag rv">...நிகழ்ச்சி நிரல்...</p>
+    <div class="box rv">
+      <h3>22.11.2026 ஞாயிற்றுக்கிழமை</h3>
+      <div class="row"><b>காலை 8.30 மணிக்குமேல் 9.30 மணிக்குள்</b><span>சுபமுகூர்த்தம் (சேலம், கோட்டை பெருமாள் கோவில்)</span></div>
+      <div class="row"><b>காலை 11.30 மணிக்குமேல் 1.00 மணிக்குள்</b><span>வரவேற்பு நிகழ்ச்சி மற்றும் விருந்து நடைபெறும்.</span></div>
+      <p class="c"><b>இடம் : பொன்னுசாமி கவுண்டர் திருமண மண்டபம்,</b><br>சேலம் புதிய பேருந்து நிலையம் எதிரில் உள்ளது.</p>
+    </div>
+    <p class="tag rv">...தங்கள் நல்வரவை அன்புடன் எதிர்நோக்கும்...</p>
+  </section>
+
+  <!-- 6 FAMILY -->
+  <section class="sec ta tm">
+    <div class="fam rv">
+      <h4>மணமகன் வீட்டார்கள் :</h4>
+      <p><u>அத்தை – மாமா :</u><br>திரு.<b>N.கந்தசாமி</b> B.E., - திருமதி.<b>சுஜாதா</b> M.Com.,<br>திருமதி.<b>கீர்த்தனா</b> B.Tech., M.B.A., - திரு.<b>ஜெய்சந்தோஷ்</b> B.Tech., MSCM (USA)</p>
+      <p><u>தாத்தா – பாட்டி :</u><br>திரு.<b>P.சம்பத்</b> - தெய்வத்திரு.<b>பங்கஜம்</b></p>
+      <p><u>தாய்மாமன் :</u><br>திரு.<b>M.அனந்தகுமார்</b> B.E., - திருமதி.<b>தீபா</b> B.C.A.,<br>குட்டீஸ் : <b>பூர்விகா, சந்தோஷ்,</b><br>திரு.<b>S.கார்த்திகேயன்</b> - திருமதி.<b>நதியா</b><br>குட்டீஸ் : <b>சாந்தனிகா, யுவகிரிஷ்</b></p>
+    </div>
+    <div class="fam rv">
+      <h4>மணமகள் வீட்டார்கள் :</h4>
+      <p><u>அக்கா – மாமா :</u><br>திரு.<b>B.வசந்த்</b> B.B.A., – திருமதி.<b>ஸ்ரீஜா</b> B.Com.,</p>
+      <p><u>தாய்மாமன் :</u><br>ராகா திரு.<b>பிரம்மஸ்ரீ R.P.சண்முக சாஸ்திரிகள்</b> - திருமதி.<b>புவனேஸ்வரி</b><br>செல்வன்.<b>R.S.ஸ்ரீகாஷ்</b> B.E.,<br>செல்வன்.<b>R.S.லலித்குமார்</b> B.Sc., (OT&amp;AT)</p>
+    </div>
+    <p class="rel rv">மற்றும்<br><b class="gold">சுற்றமும் - நட்பும்</b></p>
+  </section>
+
+  <!-- 7 CLOSING -->
+  <section class="sec end">
+    <div class="om gold">♥</div>
+    <p class="it rv">....With Best Compliments....</p>
+    <h2 class="rv">RELATIVES &amp; FRIENDS</h2>
+    <span class="script gold rv big">Naveenkumar &amp; Nithyasri</span>
+    <div class="actions rv">
+      <!-- <a class="btn" id="wa" target="_blank" rel="noopener">💬 Share on WhatsApp</a> -->
+      <a class="btn" href="assets/Invitation.pdf" download>⬇ Download Invitation</a>
+    </div>
+  </section>
+</main>
+
+<audio id="backgroundMusic" src="assets/background-music.mp4" loop preload="auto"></audio>
+<button id="music" aria-label="Music" hidden>🔇</button>
+<script src="script.js"></script>
+</body>
+</html>
